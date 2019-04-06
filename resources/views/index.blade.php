@@ -19,10 +19,10 @@ and open the template in the editor......
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/reset.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-        <link rel="stylesheet" href="css/modalLogin/modalLogin.css">
-        <link rel="stylesheet" href="css/alertify/alertify.css">
-        <link rel="stylesheet" href="css/alertify/themes/default.css">
-        <link rel="stylesheet" href="terceros/MDB_Free/css/mdb.min.css">
+        <link rel="stylesheet" href="/css/modalLogin/modalLogin.css">
+        <link rel="stylesheet" href="/css/alertify/alertify.css">
+        <link rel="stylesheet" href="/css/alertify/themes/default.css">
+        <link rel="stylesheet" href="/terceros/MDB_Free/css/mdb.min.css">
     </head>
     <body>
             <div>
@@ -127,7 +127,7 @@ and open the template in the editor......
                         varias veces volver a dominar la recién creada república con resultados fallidos hasta que en 1867 Haití reconoció la
                         independencia dominicana.</p>
                         <div>
-                            <img src="./imagenes/padresDeLaPatria.jpeg" alt="Padres de la patria" class="padresdelapatria">
+                            <img src="/imagenes/padresDeLaPatria.jpeg" alt="Padres de la patria" class="padresdelapatria">
                         </div>
                         <p>
                             La palabra Dominicana proviene del latín Dominicus, que significa Domingo. Sin embargo, la isla tiene este nombre por
@@ -152,7 +152,7 @@ and open the template in the editor......
                         varias veces volver a dominar la recién creada república con resultados fallidos hasta que en 1867 Haití reconoció la
                         independencia dominicana.</p>
                         <div>
-                            <img src="./imagenes/padresDeLaPatria.jpeg" alt="Padres de la patria" class="padresdelapatria">
+                            <img src="/imagenes/padresDeLaPatria.jpeg" alt="Padres de la patria" class="padresdelapatria">
                         </div>
                         <p>
                             La palabra Dominicana proviene del latín Dominicus, que significa Domingo. Sin embargo, la isla tiene este nombre por
@@ -202,16 +202,16 @@ and open the template in the editor......
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
-        <script src="./js/Scrollmagic/ScrollMagic.js" type="text/javascript"></script>
+        <script src="/js/Scrollmagic/ScrollMagic.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-        <script src="js/velocity.min.js" type="text/javascript"></script>
-        <script src="js/Scrollmagic/plugins/animation.velocity.js" type="text/javascript"></script>
-        <script src="js/alertify/alertify.js"></script>
-        <script  src="js/modalLogin/modalLogin.js"></script>
-        <script src="terceros/ckeditor/ckeditor.js"></script>
-        <script src="terceros/MDB_Free/js/mdb.min.js"></script>
-        <script src="js/Script.js" type="text/javascript"></script>
+        <script src="/js/velocity.min.js" type="text/javascript"></script>
+        <script src="/js/Scrollmagic/plugins/animation.velocity.js" type="text/javascript"></script>
+        <script src="/js/alertify/alertify.js"></script>
+        <script  src="/js/modalLogin/modalLogin.js"></script>
+        <script src="/terceros/ckeditor/ckeditor.js"></script>
+        <script src="/terceros/MDB_Free/js/mdb.min.js"></script>
+        <script src="/js/Script.js" type="text/javascript"></script>
     </body>
 </html>
