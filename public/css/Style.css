@@ -1,0 +1,251 @@
+.center{
+    text-align: center;
+}
+
+.horizontal-center{
+    vertical-align: center;
+}
+
+article.marginCenter{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.maxWidth{
+    max-width: 43em;
+}
+
+.desarrolloArticulo{
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+.letras{
+    font-family: 'Lora', serif;
+}
+
+.desarrolloArticulo p{
+    line-height: 2.3em;
+    margin: 1.25em 0;
+    text-align: justify;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.bold{
+    font-weight: 600;
+    color: black;
+}
+p:nth-child(1):first-letter {
+    font-size: 3.5em;
+    line-height: 1em;
+}
+
+p + p:first-letter {
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+img.padresdelapatria{
+    width: 30%;
+    max-width: 300px;
+    float: right;
+}
+
+/*Este estilo es para el Scroll magic (cuando se haga scroll se desvanezca)*/
+.magic{
+    opacity: 1;
+    transition: 1.3s;
+  }
+
+.magic.show {
+    opacity: 0;
+    transition: 1.3s;
+  }
+  
+  .red-cube{
+  background: red;
+  margin: 0 auto;
+  display: block;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0;
+  transition: .5s;
+  width: 0%
+}
+
+.red-cube.show{
+  opacity: 1;
+  width: 100%
+}
+
+.menu{
+  list-style: none;
+  line-height: 40px;
+  padding-left: 0;
+  width: 21em;
+}
+
+.menu li{
+    /* border-left: 3px solid black; */
+    padding-left: 1.5em;
+    margin-bottom: 5px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu li:hover{
+    box-shadow: 17rem 0 #f2f2f2 inset;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+}
+
+ul.menu li a{
+    color: #535a60;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-family: 'Crimson Text', serif;
+    font-size: .85rem;
+    transition: all .5s;
+}
+
+.menu li.active{
+    border-left: 3px solid #e57933;
+    box-shadow: 17rem 0 #f2f2f2 inset;
+}
+
+.menu li.active a{
+    color: black;
+    margin-left: 1em;
+}
+
+.menu li:hover a{
+    margin-left: 1em;
+}
+
+nav{
+    position: absolute;
+    left: -24em;
+    z-index: 20;
+    padding-top: 3em !important;
+    transition: all .2s;
+}
+
+nav.mostrar{
+    left: 0;
+}
+
+div#mostrarNav{
+    width: 30px;
+    height: 30px;
+    background-image: url(../imagenes/Hamburger_icon.png);
+    background-size: contain;
+    z-index: 30;
+    position: absolute;
+    left: 2em;
+    cursor: pointer;
+}
+
+div#mostrarNav.cerrar{
+    width: 30px;
+    height: 30px;
+    background-image: url(../imagenes/close-icon-48.png);
+    background-size: contain;
+    z-index: 30;
+    position: absolute;
+    left: 2em;
+    cursor: pointer;
+}
+
+button.acceder{
+    background-color: #e57933;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 13px;
+    width: 60px;
+    height: 60px;
+    transition: all .3s;
+    padding: 9px 22px 7px 24px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+button.acceder:hover{
+    background-color: #f59659;
+    color: #ffffff;
+}
+
+button.acceder:focus{
+    background-color: #e57933;
+    color: #ffffff;
+}
+
+div.contenedorAcceder{
+    padding: 15px;
+}
+
+div.letras h2{
+    font-size: 2rem;
+}
+
+button.accederLogin{
+    border: 0;
+    padding: 13px;
+    color: white;
+    background-color: #fd9a59;
+    border-radius: 10px;
+}
+
+button.accederLogin:hover{
+    cursor: pointer;
+    color: white;
+}
+
+a.cerrarSesion{
+    color: #e57933 !important;
+}
+
+a.cerrarSesion:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #e57933;
+}
+
+span.agregarArticulo{
+    padding-right: 0.5em;
+}
+
+div.botonesLogin{
+    float: right;
+}
+
+div.magenta{
+    background-color: #f58842 !important;
+}
+
+button.botonMagenta{
+    background-color: #f38137 !important;
+    color: white;
+}
+
+div.magenta h4{
+    color: white;
+    font-weight: 800;
+}
+
+button.botonRojo{
+    background-color: #ff3547;
+    color: white;
+}
