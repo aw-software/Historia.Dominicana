@@ -19,10 +19,11 @@ and open the template in the editor......
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/reset.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-        <link rel="stylesheet" href="/css/modalLogin/modalLogin.css">
-        <link rel="stylesheet" href="/css/alertify/alertify.css">
-        <link rel="stylesheet" href="/css/alertify/themes/default.css">
-        <link rel="stylesheet" href="/terceros/MDB_Free/css/mdb.min.css">
+        <link rel="stylesheet" href="{{ url('/css/modalLogin/modalLogin.css') }}">
+        <link rel="stylesheet" href="{{ url('/css/alertify/alertify.css') }}">
+        <link rel="stylesheet" href="{{ url('/css/alertify/themes/default.css') }}">
+        <link rel="stylesheet" href="{{ url('/terceros/MDB_Free/css/mdb.min.css') }}">
+
     </head>
     <body>
             <div>
