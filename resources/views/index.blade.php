@@ -22,7 +22,7 @@ and open the template in the editor......
         <link rel="stylesheet" href="{{ url('css/modalLogin/modalLogin.css') }}" />
         <link rel="stylesheet" href="{{ url('css/alertify/alertify.css') }}" />
         <link rel="stylesheet" href="{{ url('css/alertify/themes/default.css') }}" />
-        <link rel="stylesheet" href="{! url('terceros/MDB_Free/css/mdb.min.css') !}" />
+        <link rel="stylesheet" href="{{ url('terceros/MDB_Free/css/mdb.min.css') }}" />
 
     </head>
     <body>
