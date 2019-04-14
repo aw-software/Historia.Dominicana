@@ -32,9 +32,9 @@ $(document).ready(function(){
     });
 
     $(document).on('click','button#iniciarSesion',function(){
-        $.post('controladores/mainController.php',{metodo: "iniciarSesion"} , function(data){
+        $.post('/login', ((data)=>{
             $('div#modalLog').html(data);
-        });
+        }));
     });
 
     $(document).on('click','input[formulario="cd-signup"]',function(){
