@@ -14,4 +14,4 @@
 Route::get('/',['as'=>'index', 'uses'=>'MainController@index']);
 
 Route::get('/',["as" => "index", "uses" =>"MainController@index"]);
-Route::post('/login',["as" => "login", "uses" =>"MainController@login"]);
+Route::post('login',["as" => "login", "uses" =>"MainController@login"]);
