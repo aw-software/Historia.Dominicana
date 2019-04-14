@@ -12,3 +12,5 @@
 */
 
 Route::get('/',['as'=>'index', 'uses'=>'MainController@index']);
+
+Route::get('/',["as" => "HistoriaDominicana.index", "uses" =>"MainController@index"]);
