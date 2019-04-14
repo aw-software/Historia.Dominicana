@@ -11,6 +11,6 @@ class MainController extends Controller
     }
 
     public function login(){
-        return view('modals/login');
+        return view('modals.login');
     }
 }
