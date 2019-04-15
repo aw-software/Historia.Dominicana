@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 			$('.cd-user-modal').addClass('is-visible');
 			setTimeout(function(){
 				login_selected();
-			},100);
+			},500);
 		}, 100);
 	});
 
