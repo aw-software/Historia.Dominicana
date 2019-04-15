@@ -33,11 +33,9 @@ $(document).ready(function(){
 
     $(document).on('click','button#iniciarSesion',function(){
         $.get('login', ((data)=>{
-            alert('esta afuera');
             $('div#modalLog').html(data);
             setTimeout(()=>{
                 $('li a#iniciarSesion').click();
-                alert('Esta entrando');
             }, 1000);
         }));
     });
