@@ -36,6 +36,7 @@ $(document).ready(function(){
             $('div#modalLog').html(data);
             setTimeout('1000',()=>{
                 $('li a#iniciarSesion').click();
+                alert('Esta entrando');
             });
         }));
     });
