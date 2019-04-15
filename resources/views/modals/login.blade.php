@@ -4,7 +4,7 @@
         <li><a href="#0">Crear cuenta</a></li>
     </ul>
     
-    <div id="cd-login"> <!-- log in form -->
+    <div id="cd-login" class="is-selected"> <!-- log in form -->
         <form id="login" class="cd-form">
             <p class="fieldset">
                 <label class="image-replace cd-email" for="signin-email">Correo electrónico</label>
