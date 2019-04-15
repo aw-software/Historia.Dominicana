@@ -10,7 +10,7 @@ class MainController extends Controller
         return view('index');
     }
 
-    public function login(){
+    public function login(Request $request){
         return view('modals.login');
     }
 }
