@@ -32,7 +32,7 @@ $(document).ready(function(){
     });
 
     $(document).on('click','button#iniciarSesion',function(){
-        $.post('login', ((data)=>{
+        $.get('login', ((data)=>{
             $('div#modalLog').html(data);
         }));
     });
