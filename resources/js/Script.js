@@ -35,7 +35,7 @@ $(document).ready(function(){
         $.get('login', ((data)=>{
             $('div#modalLog').html(data);
             setTimeout('1000',()=>{
-                $('li.active').click().attr('positivo');
+                $('li a#iniciarSesion').click();
             });
         }));
     });

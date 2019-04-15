@@ -1,6 +1,6 @@
 <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
     <ul class="cd-switcher">
-        <li><a href="#0">Iniciar sesión</a></li>
+        <li><a href="#0" id="iniciarSesion">Iniciar sesión</a></li>
         <li><a href="#0">Crear cuenta</a></li>
     </ul>
     
