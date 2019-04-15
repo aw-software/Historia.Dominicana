@@ -34,6 +34,9 @@ $(document).ready(function(){
     $(document).on('click','button#iniciarSesion',function(){
         $.get('login', ((data)=>{
             $('div#modalLog').html(data);
+            setTimeout('1000',()=>{
+                $('li.active').click().attr('positivo');
+            });
         }));
     });
 
