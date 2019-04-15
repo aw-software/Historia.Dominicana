@@ -213,6 +213,6 @@ and open the template in the editor......
         <script  src="/js/modalLogin/modalLogin.js"></script>
         <script src="/terceros/ckeditor/ckeditor.js"></script>
         <script src="/terceros/MDB_Free/js/mdb.min.js"></script>
-        <script src="/js/Script.js" type="text/javascript"></script>
+        <script src="/js/app.js" type="text/javascript"></script>
     </body>
 </html>
