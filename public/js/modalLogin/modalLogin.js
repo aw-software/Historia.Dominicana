@@ -26,8 +26,8 @@ jQuery(document).ready(function($){
 			$('.cd-user-modal').addClass('is-visible');
 			setTimeout(function(){
 				login_selected();
-			},10);
-		}, 1000);
+			},100);
+		}, 100);
 	});
 
 	//close modal
