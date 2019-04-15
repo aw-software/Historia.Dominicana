@@ -27,7 +27,7 @@ jQuery(document).ready(function($){
 			setTimeout(function(){
 				login_selected();
 			},10);
-		}, 100);
+		}, 1000);
 	});
 
 	//close modal
