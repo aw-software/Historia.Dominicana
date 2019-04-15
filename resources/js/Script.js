@@ -35,10 +35,10 @@ $(document).ready(function(){
         $.get('login', ((data)=>{
             alert('esta afuera');
             $('div#modalLog').html(data);
-            setTimeout('1000',()=>{
+            setTimeout(()=>{
                 $('li a#iniciarSesion').click();
                 alert('Esta entrando');
-            });
+            }, 1000);
         }));
     });
 
