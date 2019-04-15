@@ -33,6 +33,7 @@ $(document).ready(function(){
 
     $(document).on('click','button#iniciarSesion',function(){
         $.get('login', ((data)=>{
+            alert('esta afuera');
             $('div#modalLog').html(data);
             setTimeout('1000',()=>{
                 $('li a#iniciarSesion').click();
