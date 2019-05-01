@@ -6,7 +6,7 @@
 
  import React from 'react';
  import ReactDOM from 'react-dom';
-
+import Article from './components/Article'
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
@@ -83,9 +83,5 @@ $(document).ready(function(){
         });
     });
 
-    let helloWorld  = (
-        <h1>Hello World!</h1>
-    );
-
-    //ReactDOM.render(helloWorld, document.getElementById('letras'));
+    ReactDOM.render(Article, document.getElementById('letras'));
 });
