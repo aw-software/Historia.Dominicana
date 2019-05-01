@@ -87,5 +87,5 @@ $(document).ready(function(){
         <h1>Hello World!</h1>
     );
 
-    ReactDOM.render(helloWorld, document.getElementById('letras'));
+    //ReactDOM.render(helloWorld, document.getElementById('letras'));
 });
