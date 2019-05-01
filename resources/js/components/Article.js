@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Article = (
     <div>
         <h2 className="center bold ">Historia de la República Dominicana</h2>
