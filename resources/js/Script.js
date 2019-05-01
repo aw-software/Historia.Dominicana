@@ -4,6 +4,9 @@
  Created by Hamil on May 5, 2018 - 10:13:27 AM.
  */
 
+ import React from 'react';
+ import ReactDOM from 'react-dom';
+
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
@@ -79,4 +82,10 @@ $(document).ready(function(){
             $('div#botonesLogin').html(data.boton);
         });
     });
+
+    let helloWorld  = (
+        <h1>Hello World!</h1>
+    );
+
+    ReactDOM.render(helloWorld, document.getElementById('letras'));
 });

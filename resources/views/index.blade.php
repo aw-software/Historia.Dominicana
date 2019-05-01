@@ -141,7 +141,7 @@ and open the template in the editor......
                     </div>
             </article>
         </div>
-        <div class="letras">
+        <div class="letras" id="letras">
             <article class="marginCenter maxWidth letras">
                     <h2 class="center bold">Historia de la República Dominicana</h2>
                         <div class="magic"></div>
