@@ -83,5 +83,5 @@ $(document).ready(function(){
         });
     });
 
-    ReactDOM.render(Article, document.getElementById('letras'));
+    ReactDOM.render(<Article />, document.getElementById('letras'));
 });
