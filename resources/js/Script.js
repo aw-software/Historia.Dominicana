@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
-    $(document).on('mouseenter load click', ()=>{
+    $(document).on('load click', ()=>{
         $('div.magic').each(function(){
             new ScrollMagic.Scene({ //Haciendo la escena
                 triggerElement: this,
