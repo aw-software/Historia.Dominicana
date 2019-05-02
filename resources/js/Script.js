@@ -4,7 +4,7 @@
  Created by Hamil on May 5, 2018 - 10:13:27 AM.
  */
 
- import React from 'react';
+ import React, {Component} from 'react';
  import ReactDOM from 'react-dom';
  import Article from './components/Article';
 
