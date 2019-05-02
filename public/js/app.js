@@ -61308,6 +61308,7 @@ __webpack_require__.r(__webpack_exports__);
 $(document).ready(function () {
   console.log("El documento 'Script' de Historia Dominicana está listo.");
   setTimeout(function () {
+    //Tenemos que esperar a que ReactDom haga render para ponerle las Escenas a nuesta pagina :)
     Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["default"])('div.desarrolloArticulo div.magic');
   }, 2000); //Para que nuestra Escena se cree al cargar la pagina
 
