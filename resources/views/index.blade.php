@@ -137,16 +137,16 @@ and open the template in the editor......
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
-        <script src="{{ url(js/Scrollmagic/ScrollMagic.js) }}" type="text/javascript"></script>
+        <script src="{{ url('js/Scrollmagic/ScrollMagic.js') }}" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-        <script src="{{ url(js/velocity.min.js" type="text/javascript) }}"></script>
-        <script src="{{ url(js/Scrollmagic/plugins/animation.velocity.js) }}" type="text/javascript"></script>
-        <script src="{{ url(js/alertify/alertify.js) }}"></script>
-        <script  src="{{ url(js/modalLogin/modalLogin.js) }}"></script>
-        <script src="{{ url(terceros/ckeditor/ckeditor.js) }}"></script>
-        <script src="{{ url(terceros/MDB_Free/js/mdb.min.js) }}"></script>
-        <script src="{{ url(js/app.js) }}" type="text/javascript"></script>
+        <script src="{{ url('js/velocity.min.js" type="text/javascript') }}"></script>
+        <script src="{{ url('js/Scrollmagic/plugins/animation.velocity.js') }}" type="text/javascript"></script>
+        <script src="{{ url('js/alertify/alertify.js') }}"></script>
+        <script  src="{{ url('js/modalLogin/modalLogin.js') }}"></script>
+        <script src="{{ url('terceros/ckeditor/ckeditor.js') }}"></script>
+        <script src="{{ url('terceros/MDB_Free/js/mdb.min.js') }}"></script>
+        <script src="{{ url('js/app.js') }}" type="text/javascript"></script>
     </body>
 </html>
