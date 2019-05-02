@@ -61374,9 +61374,10 @@ $(document).ready(function () {
     }).done(function (data) {
       $('div#botonesLogin').html(data.boton);
     });
-  }); // ReactDOM.render(<App />, document.getElementById('letras'));
-  // ReactDOM.render(<App />, document.getElementById('letras1'));
-  // ReactDOM.render(<App />, document.getElementById('letras2'));
+  });
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras1'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras2'));
 });
 
 /***/ }),
