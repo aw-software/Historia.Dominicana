@@ -7,6 +7,7 @@
  import React, {Component} from 'react';
  import ReactDOM from 'react-dom';
  import App from './components/Index';
+ import SceneFade from './ScrollMagic';
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
@@ -14,16 +15,10 @@ $(document).ready(function(){
     CKEDITOR.replace('cuerpoArticulo');
     $('[data-toggle="tooltip"]').tooltip();
 
-    var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
+    
 
     $(document).on('unload load ready click', ()=>{
-        $('div.desarrolloArticulo div.magic').each(function(){
-            new ScrollMagic.Scene({ //Haciendo la escena
-                triggerElement: this,
-                triggerHook: 0
-            }).setVelocity($(this).closest('article'),{opacity: 0}, {duration: 200})//Libreria de animación
-            .addTo(controller);//Agregando la escena al controlador
-        });
+        SceneFade('div.desarrolloArticulo div.magic');
     });
     
     $(document).on('click','ul li a', function(){
