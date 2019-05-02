@@ -21,7 +21,7 @@ $(document).ready(function(){
             new ScrollMagic.Scene({ //Haciendo la escena
                 triggerElement: this,
                 triggerHook: 0
-            }).setVelocity($(this).closest('article'),{opacity: 0}, {duration: 100})//Libreria de animación
+            }).setVelocity($(this).closest('article'),{opacity: 0}, {duration: 200})//Libreria de animación
             .addTo(controller);//Agregando la escena al controlador
         });
     });
