@@ -119,10 +119,10 @@ and open the template in the editor......
         <div class="letras" id="letras">
             
         </div>
-        <div class="letras" id="letras">
+        <div class="letras" id="letras1">
             
         </div>
-        <div class="letras" id="letras">
+        <div class="letras" id="letras2">
             
         </div>
         <br>
