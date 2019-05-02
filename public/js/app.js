@@ -61309,7 +61309,7 @@ $(document).ready(function () {
   $('[data-toggle="tooltip"]').tooltip();
   var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
-  $(document).on('load ready click', function () {
+  $(document).on('unload load ready click', function () {
     $('div.desarrolloArticulo div.magic').each(function () {
       new ScrollMagic.Scene({
         //Haciendo la escena
