@@ -61309,17 +61309,19 @@ $(document).ready(function () {
   $('[data-toggle="tooltip"]').tooltip();
   var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
-  $('div.magic').each(function () {
-    new ScrollMagic.Scene({
-      //Haciendo la escena
-      triggerElement: this,
-      triggerHook: 0
-    }).setVelocity($(this).closest('article'), {
-      opacity: 0
-    }, {
-      duration: 400
-    }) //Libreria de animación
-    .addTo(controller); //Agregando la escena al controlador
+  $('div.magic').on('scroll', function () {
+    $('div.magic').each(function () {
+      new ScrollMagic.Scene({
+        //Haciendo la escena
+        triggerElement: this,
+        triggerHook: 0
+      }).setVelocity($(this).closest('article'), {
+        opacity: 0
+      }, {
+        duration: 400
+      }) //Libreria de animación
+      .addTo(controller); //Agregando la escena al controlador
+    });
   });
   $(document).on('click', 'ul li a', function () {
     $('ul.menu li').removeClass("active");
