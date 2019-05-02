@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
-    $('body').mouseenter( ()=>{
+    $('html').mouseenter( ()=>{
         alert(`Hola`);
         $('div.magic').each(function(){
             new ScrollMagic.Scene({ //Haciendo la escena
@@ -86,7 +86,9 @@ $(document).ready(function(){
         });
     });
 
-    ReactDOM.render(<App />, document.getElementById('letras'));
+    $(document).on('click', ()=>{
+        ReactDOM.render(<h1>Esto es ReactJS</h1>, document.getElementById('letras'));
+    });
     ReactDOM.render(<App />, document.getElementById('letras1'));
     ReactDOM.render(<App />, document.getElementById('letras2'));
 });
