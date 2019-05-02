@@ -4,7 +4,11 @@ import Article from './Article';
 class App extends Component {
     render() {
         return (
-            <Article />
+            <div>
+                <Article />
+                <Article />
+                <Article />
+            </div>
         );
     }
 }
