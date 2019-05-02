@@ -116,13 +116,7 @@ and open the template in the editor......
 </div>
 
 
-        <div class="letras" id="letras">
-            
-        </div>
-        <div class="letras" id="letras1">
-            
-        </div>
-        <div class="letras" id="letras2">
+        <div id="articulo">
             
         </div>
         <br>
