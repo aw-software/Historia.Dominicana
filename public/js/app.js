@@ -61309,13 +61309,13 @@ $(document).ready(function () {
   console.log("El documento 'Script' de Historia Dominicana está listo.");
   setTimeout(function () {
     //Tenemos que esperar a que ReactDom haga render para ponerle las Escenas a nuesta pagina :)
-    Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["default"])('div.desarrolloArticulo div.magic');
+    Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["SceneFade"])('div.desarrolloArticulo div.magic');
   }, 2000); //Para que nuestra Escena se cree al cargar la pagina
 
   CKEDITOR.replace('cuerpoArticulo');
   $('[data-toggle="tooltip"]').tooltip();
   $(document).on('unload load ready click', function () {
-    Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["default"])('div.desarrolloArticulo div.magic');
+    Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["SceneFade"])('div.desarrolloArticulo div.magic');
   });
   $(document).on('click', 'ul li a', function () {
     $('ul.menu li').removeClass("active");
@@ -61382,11 +61382,12 @@ $(document).ready(function () {
 /*!*************************************!*\
   !*** ./resources/js/ScrollMagic.js ***!
   \*************************************/
-/*! exports provided: default */
+/*! exports provided: SceneFade */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SceneFade", function() { return SceneFade; });
 var SceneFade = function SceneFade(selector) {
   var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
@@ -61403,8 +61404,6 @@ var SceneFade = function SceneFade(selector) {
     .addTo(controller); //Agregando la escena al controlador
   });
 };
-
-/* harmony default export */ __webpack_exports__["default"] = (SceneFade);
 
 /***/ }),
 

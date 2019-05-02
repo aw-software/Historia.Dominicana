@@ -7,7 +7,7 @@
  import React, {Component} from 'react';
  import ReactDOM from 'react-dom';
  import App from './components/Index';
- import SceneFade from './ScrollMagic';
+ import {SceneFade} from './ScrollMagic';
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
