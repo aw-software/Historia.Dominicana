@@ -141,7 +141,7 @@ and open the template in the editor......
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-        <script src="{{ url('js/velocity.min.js" type="text/javascript') }}"></script>
+        <script src="{{ url('js/velocity.min.js') }}" type="text/javascript"></script>
         <script src="{{ url('js/Scrollmagic/plugins/animation.velocity.js') }}" type="text/javascript"></script>
         <script src="{{ url('js/alertify/alertify.js') }}"></script>
         <script  src="{{ url('js/modalLogin/modalLogin.js') }}"></script>
