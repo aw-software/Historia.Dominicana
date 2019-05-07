@@ -1,7 +1,7 @@
 import React from 'react';
 
 const article = () => {
-    let properties = {
+    const properties = {
         overFlow: 'hidden !important'
     };
     return (
