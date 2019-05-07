@@ -61310,7 +61310,6 @@ $(document).ready(function () {
   var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
   $(document).on('mouseenter load click', function () {
-    alert("Hola");
     $('div.magic').each(function () {
       new ScrollMagic.Scene({
         //Haciendo la escena
@@ -61319,7 +61318,7 @@ $(document).ready(function () {
       }).setVelocity($(this).closest('article'), {
         opacity: 0
       }, {
-        duration: 400
+        duration: 100
       }) //Libreria de animación
       .addTo(controller); //Agregando la escena al controlador
     });
