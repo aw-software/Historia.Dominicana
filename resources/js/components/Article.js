@@ -4,7 +4,7 @@ const article = () => {
     return (
         <article className="marginCenter maxWidth letras">
             <h2 className="center bold">Historia de la República Dominicana</h2>
-                <div className="magic"></div>
+                
             <div className="desarrolloArticulo">
                 <p className="center letras">La República Dominicana se fundó en el año 1844 después de muchos años de opresión bajo los Haitianos.
                         Durante los 22 años que precedieron a la independencia, toda la isla de La Española estuvo bajo el dominio de Haití.
@@ -12,6 +12,7 @@ const article = () => {
                 militares ocurridas entre 1844 y 1856 terminaron por consolidar a la república como un nuevo estado. Los haitianos intentaron
                 varias veces volver a dominar la recién creada república con resultados fallidos hasta que en 1867 Haití reconoció la
                 independencia dominicana.</p>
+                <div className="magic"></div>
                 <div>
                     <img src="/imagenes/padresDeLaPatria.jpeg" alt="Padres de la patria" className="padresdelapatria" />
                 </div>
