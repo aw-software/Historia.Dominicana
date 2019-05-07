@@ -61381,6 +61381,9 @@ $(document).ready(function () {
   $(document).on('click', function () {
     react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Esto es ReactJS"), document.getElementById('letras'));
   });
+  $(document).on('dblclick', function () {
+    react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras'));
+  });
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras1'));
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras2'));
 });

@@ -89,6 +89,9 @@ $(document).ready(function(){
     $(document).on('click', ()=>{
         ReactDOM.render(<h1>Esto es ReactJS</h1>, document.getElementById('letras'));
     });
+    $(document).on('dblclick', ()=>{
+        ReactDOM.render(<App />, document.getElementById('letras'));
+    });
     ReactDOM.render(<App />, document.getElementById('letras1'));
     ReactDOM.render(<App />, document.getElementById('letras2'));
 });
