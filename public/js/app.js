@@ -61310,7 +61310,7 @@ $(document).ready(function () {
   var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
   $(document).on('load click', function () {
-    $('div.magic').each(function () {
+    $('div.desarrolloArticulo').each(function () {
       new ScrollMagic.Scene({
         //Haciendo la escena
         triggerElement: this,
