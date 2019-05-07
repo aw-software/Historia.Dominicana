@@ -7,7 +7,6 @@
 
 require('./bootstrap');
 require('./Script');//This is the main file where we put the logic of the client side
-require('./components/Article');//Component for the articles of the page 
 
 /**
  * Next, we will create a fresh React component instance and attach it to

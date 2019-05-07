@@ -6,7 +6,15 @@
 
  import React from 'react';
  import ReactDOM from 'react-dom';
-import App from './components/App'
+ import Article from './components/Article';
+
+export default class App extends Component {
+    render() {
+        return (
+            <Article />
+        );
+    }
+}
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
