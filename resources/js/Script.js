@@ -12,10 +12,10 @@
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
 
+    SceneFade('div.desarrolloArticulo div.magic');//Para que nuestra Escena se cree al cargar la pagina
+
     CKEDITOR.replace('cuerpoArticulo');
     $('[data-toggle="tooltip"]').tooltip();
-
-    
 
     $(document).on('unload load ready click', ()=>{
         SceneFade('div.desarrolloArticulo div.magic');

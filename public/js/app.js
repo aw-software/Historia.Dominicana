@@ -61307,6 +61307,8 @@ __webpack_require__.r(__webpack_exports__);
 
 $(document).ready(function () {
   console.log("El documento 'Script' de Historia Dominicana está listo.");
+  Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["default"])('div.desarrolloArticulo div.magic'); //Para que nuestra Escena se cree al cargar la pagina
+
   CKEDITOR.replace('cuerpoArticulo');
   $('[data-toggle="tooltip"]').tooltip();
   $(document).on('unload load ready click', function () {
