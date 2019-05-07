@@ -61295,6 +61295,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Index */ "./resources/js/components/Index.js");
+/* harmony import */ var _ScrollMagic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ScrollMagic */ "./resources/js/ScrollMagic.js");
 /*
  Project: HistoriaDominicana
  File: Script
@@ -61303,25 +61304,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 $(document).ready(function () {
   console.log("El documento 'Script' de Historia Dominicana está listo.");
   CKEDITOR.replace('cuerpoArticulo');
   $('[data-toggle="tooltip"]').tooltip();
-  var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
-
   $(document).on('unload load ready click', function () {
-    $('div.desarrolloArticulo div.magic').each(function () {
-      new ScrollMagic.Scene({
-        //Haciendo la escena
-        triggerElement: this,
-        triggerHook: 0
-      }).setVelocity($(this).closest('article'), {
-        opacity: 0
-      }, {
-        duration: 200
-      }) //Libreria de animación
-      .addTo(controller); //Agregando la escena al controlador
-    });
+    Object(_ScrollMagic__WEBPACK_IMPORTED_MODULE_3__["default"])('div.desarrolloArticulo div.magic');
   });
   $(document).on('click', 'ul li a', function () {
     $('ul.menu li').removeClass("active");
@@ -61381,6 +61370,36 @@ $(document).ready(function () {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras1'));
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras2'));
 });
+
+/***/ }),
+
+/***/ "./resources/js/ScrollMagic.js":
+/*!*************************************!*\
+  !*** ./resources/js/ScrollMagic.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var SceneFade = function SceneFade(selector) {
+  var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
+
+  $(selector).each(function () {
+    new ScrollMagic.Scene({
+      //Haciendo la escena
+      triggerElement: this,
+      triggerHook: 0
+    }).setVelocity($(this).closest('article'), {
+      opacity: 0
+    }, {
+      duration: 200
+    }) //Libreria de animación
+    .addTo(controller); //Agregando la escena al controlador
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SceneFade);
 
 /***/ }),
 
