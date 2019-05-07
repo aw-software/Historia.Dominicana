@@ -1,14 +1,14 @@
 import React from 'react';
 
 const article = () => {
-    const properties = {
-        overFlow: 'hidden !important'
+    let properties = {
+        overflow: 'hidden !important'
     };
     return (
         <article className="marginCenter maxWidth letras" id="article">
             <h2 className="center bold">Historia de la República Dominicana</h2>
             <div className="magic"></div>
-            <div className="desarrolloArticulo" style={properties}>
+            <div className="desarrolloArticulo" style={{overFlow: "hidden !important"}}>
                 <p className="center letras">La República Dominicana se fundó en el año 1844 después de muchos años de opresión bajo los Haitianos.
                         Durante los 22 años que precedieron a la independencia, toda la isla de La Española estuvo bajo el dominio de Haití.
                 Después de los esfuerzos hechos por patriotas dominicanos para independizar el país del dominio haitiano, varias acciones
