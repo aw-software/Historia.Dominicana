@@ -92,4 +92,6 @@ $(document).ready(function(){
     });
 
     ReactDOM.render(<App />, document.getElementById('letras'));
+    ReactDOM.render(<App />, document.getElementById('letras1'));
+    ReactDOM.render(<App />, document.getElementById('letras2'));
 });
