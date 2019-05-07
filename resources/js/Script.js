@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     var controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
 
-    $('body').on('scroll', ()=>{
+    $('body').scroll( ()=>{
         alert(`Hola`);
         $('div.magic').each(function(){
             new ScrollMagic.Scene({ //Haciendo la escena
