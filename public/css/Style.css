@@ -30,6 +30,10 @@ article.marginCenter{
     text-align: justify;
 }
 
+div.desarrolloArticulo{
+    overflow: hidden !important;
+}
+
 p{
     font-size: 1.5em;
     line-height: 1;
