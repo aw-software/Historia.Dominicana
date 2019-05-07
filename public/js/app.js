@@ -61525,8 +61525,7 @@ var article = function article() {
     overflow: 'hidden !important'
   };
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "marginCenter maxWidth letras",
-    id: "article"
+    className: "marginCenter maxWidth letras"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "center bold"
   }, "Historia de la Rep\xFAblica Dominicana"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -61534,7 +61533,7 @@ var article = function article() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "desarrolloArticulo",
     style: {
-      overFlow: "hidden !important"
+      overFlow: "hidden"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "center letras"
