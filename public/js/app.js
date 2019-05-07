@@ -61488,7 +61488,7 @@ var article = function article() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "center bold"
   }, "Historia de la Rep\xFAblica Dominicana"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "desarrolloArticulo"
+    className: "desarrolloArticulo magic"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "center letras"
   }, "La Rep\xFAblica Dominicana se fund\xF3 en el a\xF1o 1844 despu\xE9s de muchos a\xF1os de opresi\xF3n bajo los Haitianos. Durante los 22 a\xF1os que precedieron a la independencia, toda la isla de\xA0La Espa\xF1ola\xA0estuvo bajo el dominio de\xA0Hait\xED. Despu\xE9s de los esfuerzos hechos por patriotas dominicanos para independizar el pa\xEDs del dominio haitiano, varias acciones militares ocurridas entre 1844 y 1856 terminaron por consolidar a la rep\xFAblica como un nuevo estado. Los haitianos intentaron varias veces volver a dominar la reci\xE9n creada rep\xFAblica con resultados fallidos hasta que en 1867 Hait\xED reconoci\xF3 la independencia dominicana."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
