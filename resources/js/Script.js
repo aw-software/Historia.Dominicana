@@ -6,7 +6,7 @@
 
  import React from 'react';
  import ReactDOM from 'react-dom';
-import Article from './components/Article'
+import App from './components/App'
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
@@ -83,5 +83,5 @@ $(document).ready(function(){
         });
     });
 
-    ReactDOM.render(<Article />, document.getElementById('letras'));
+    ReactDOM.render(<App />, document.getElementById('letras'));
 });
