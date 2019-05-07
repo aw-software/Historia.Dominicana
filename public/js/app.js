@@ -61488,6 +61488,8 @@ var article = function article() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "center bold"
   }, "Historia de la Rep\xFAblica Dominicana"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "magic"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "desarrolloArticulo"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "center letras"
@@ -61495,9 +61497,7 @@ var article = function article() {
     src: "/imagenes/padresDeLaPatria.jpeg",
     alt: "Padres de la patria",
     className: "padresdelapatria"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La palabra Dominicana proviene del lat\xEDn Dominicus, que significa Domingo. Sin embargo, la isla tiene este nombre por Santo Domingo de Guzm\xE1n, fundador de la Orden de los Dominicos."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "magic"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Esta es una introducci\xF3n a todo lo que usted ser\xE1 capaz de ver en esta p\xE1gina web, para seguir viendo m\xE1s puede darle al men\xFA de la parte superior izquierda y elegir un evento que usted desee (estos eventos est\xE1n ordenados de forma cronologica).")));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La palabra Dominicana proviene del lat\xEDn Dominicus, que significa Domingo. Sin embargo, la isla tiene este nombre por Santo Domingo de Guzm\xE1n, fundador de la Orden de los Dominicos."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Esta es una introducci\xF3n a todo lo que usted ser\xE1 capaz de ver en esta p\xE1gina web, para seguir viendo m\xE1s puede darle al men\xFA de la parte superior izquierda y elegir un evento que usted desee (estos eventos est\xE1n ordenados de forma cronologica).")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (article);
