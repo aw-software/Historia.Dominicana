@@ -61371,9 +61371,7 @@ $(document).ready(function () {
       $('div#botonesLogin').html(data.boton);
     });
   });
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras'));
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras1'));
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('letras2'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('articulo'));
 });
 
 /***/ }),
@@ -61506,7 +61504,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var article = function article() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "letras"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
     className: "marginCenter maxWidth letras"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "center bold"
@@ -61520,7 +61520,7 @@ var article = function article() {
     src: "/imagenes/padresDeLaPatria.jpeg",
     alt: "Padres de la patria",
     className: "padresdelapatria"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La palabra Dominicana proviene del lat\xEDn Dominicus, que significa Domingo. Sin embargo, la isla tiene este nombre por Santo Domingo de Guzm\xE1n, fundador de la Orden de los Dominicos."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Esta es una introducci\xF3n a todo lo que usted ser\xE1 capaz de ver en esta p\xE1gina web, para seguir viendo m\xE1s puede darle al men\xFA de la parte superior izquierda y elegir un evento que usted desee (estos eventos est\xE1n ordenados de forma cronologica).")));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "La palabra Dominicana proviene del lat\xEDn Dominicus, que significa Domingo. Sin embargo, la isla tiene este nombre por Santo Domingo de Guzm\xE1n, fundador de la Orden de los Dominicos."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Esta es una introducci\xF3n a todo lo que usted ser\xE1 capaz de ver en esta p\xE1gina web, para seguir viendo m\xE1s puede darle al men\xFA de la parte superior izquierda y elegir un evento que usted desee (estos eventos est\xE1n ordenados de forma cronologica)."))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (article);
