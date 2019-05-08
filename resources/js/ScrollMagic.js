@@ -1,4 +1,4 @@
-const SceneFade = selector => {
+export const SceneFade = selector => {
     let controller = new ScrollMagic.Controller(); //Controlador de Scroll Magic
     $(selector).each(function(){
         new ScrollMagic.Scene({ //Haciendo la escena
@@ -8,5 +8,3 @@ const SceneFade = selector => {
         .addTo(controller);//Agregando la escena al controlador
     });
 }
-
-export default SceneFade;
