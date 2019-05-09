@@ -14,7 +14,8 @@ class AddColumnsMenuTable extends Migration
     public function up()
     {
         Schema::table('menu', function (Blueprint $table) {
-            //
+            $table->string('item');
+            $table->integer('parent')->nullable;
         });
     }
 
@@ -26,7 +27,8 @@ class AddColumnsMenuTable extends Migration
     public function down()
     {
         Schema::table('menu', function (Blueprint $table) {
-            //
+            $table->dropColumn('item');
+            $table->dropColumn('parent');
         });
     }
 }
