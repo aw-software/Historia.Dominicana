@@ -30,6 +30,7 @@ class AddColumnsMenuTable extends Migration
         Schema::table('menu', function (Blueprint $table) {
             $table->dropColumn('item');
             $table->dropColumn('parent');
+            $table->dropColumn('fecha_evento');
         });
     }
 }
