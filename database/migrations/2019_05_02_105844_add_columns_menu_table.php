@@ -16,6 +16,7 @@ class AddColumnsMenuTable extends Migration
         Schema::table('menu', function (Blueprint $table) {
             $table->string('item');
             $table->integer('parent')->nullable;
+            $table->timestamp('fecha_evento');
         });
     }
 
