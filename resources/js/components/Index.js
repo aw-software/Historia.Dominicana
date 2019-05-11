@@ -8,6 +8,7 @@ class App extends Component {
                 <Article />
                 <Article />
                 <Article />
+                <Article />
             </div>
         );
     }
