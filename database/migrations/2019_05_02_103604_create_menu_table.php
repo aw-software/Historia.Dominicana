@@ -17,7 +17,7 @@ class CreateMenuTable extends Migration
             $table->bigIncrements('id');
             $table->string('item');
             $table->integer('parent')->nullable;
-            $table->timestamp('fecha_evento');
+            $table->integer('orden');
             $table->timestamps();
         });
     }
