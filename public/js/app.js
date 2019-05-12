@@ -61296,11 +61296,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Index */ "./resources/js/components/Index.js");
 /* harmony import */ var _ScrollMagic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ScrollMagic */ "./resources/js/ScrollMagic.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
 /*
  Project: HistoriaDominicana
  File: Script
  Created by Hamil on May 5, 2018 - 10:13:27 AM.
  */
+
 
 
 
@@ -61370,6 +61373,9 @@ $(document).ready(function () {
     }).done(function (data) {
       $('div#botonesLogin').html(data.boton);
     });
+  });
+  axios__WEBPACK_IMPORTED_MODULE_4___default.a.get(Object({"NODE_ENV":"development"}).MIX_APP_URL).then(function (response) {
+    console.log(response);
   });
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('articulo'));
 });
