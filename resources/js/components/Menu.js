@@ -16,16 +16,12 @@ class Menu extends Component{
         });
     }
 
-    Item (props) {
-        return <Il>{props.name}</Il>;
-    }
-
     render() {
         return (
                 <ul className="menu">
                     {
                         this.state.menu.map(items => {
-                            return <Item name={items.name} />
+                            return <Il>{items.name}</Il>
                         })
                     }
                 </ul>

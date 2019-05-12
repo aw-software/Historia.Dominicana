@@ -61977,19 +61977,12 @@ function (_Component) {
       });
     }
   }, {
-    key: "Item",
-    value: function Item(props) {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Il, null, props.name);
-    }
-  }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "menu"
       }, this.state.menu.map(function (items) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Item, {
-          name: items.name
-        });
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Il, null, items.name);
       }));
     }
   }]);
