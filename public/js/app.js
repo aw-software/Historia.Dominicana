@@ -61374,7 +61374,7 @@ $(document).ready(function () {
       $('div#botonesLogin').html(data.boton);
     });
   });
-  axios__WEBPACK_IMPORTED_MODULE_4___default.a.get(Object({"NODE_ENV":"development"}).MIX_APP_URL).then(function (response) {
+  axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('192.168.0.9/menu').then(function (response) {
     console.log(response);
   });
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('articulo'));

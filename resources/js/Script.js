@@ -83,7 +83,7 @@ $(document).ready(function(){
         });
     });
 
-    axios.get(process.env.MIX_APP_URL)
+    axios.get('192.168.0.9/menu')
         .then(response => {
             console.log(response);
     });
