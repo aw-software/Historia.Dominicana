@@ -16,3 +16,4 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::post('menu/save/{name}/{parent}/{order}',["as" => "saveMenu", "uses" => "MainController@insertItemMenu"]);
