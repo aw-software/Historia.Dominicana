@@ -83,7 +83,7 @@ $(document).ready(function(){
         });
     });
 
-    axios.get('menu')
+    axios.get('/menu')
         .then(response => {
             console.log(response);
     });
