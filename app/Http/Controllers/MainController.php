@@ -15,7 +15,7 @@ class MainController extends Controller
         return view('modals.login')->render();
     }
 
-    public function insertItemMenu(Request $request, $parent = null){
+    public function insertItemMenu(Request $request){
         $menu = new Menu;
 
         $menu->name = $request->name;
@@ -25,4 +25,12 @@ class MainController extends Controller
         //Inserting the information on the menu table
         $menu->save();
     }
+
+    public function getAllMenu(Request $request){
+        $menu = Menu::all();
+
+        view('menu', compact('menu'));
+    }
+
+
 }
