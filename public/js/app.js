@@ -61981,7 +61981,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "menu"
       }, this.state.menu.map(function (items) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, items.name);
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
       }));
     }
   }]);
