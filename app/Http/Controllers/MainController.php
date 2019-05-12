@@ -29,7 +29,7 @@ class MainController extends Controller
     public function getAllMenu(Request $request){
         $menu = Menu::all();
 
-        view('menu', compact('menu'));
+        return view('menu', compact('menu'));
     }
 
 
