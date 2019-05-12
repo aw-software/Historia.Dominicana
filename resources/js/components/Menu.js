@@ -21,7 +21,7 @@ class Menu extends Component{
                 <ul className="menu">
                     {
                         this.state.menu.map(items => {
-                            <Il>{items.name}</Il>
+                            <li>{items.name}</li>
                         })
                     }
                 </ul>
