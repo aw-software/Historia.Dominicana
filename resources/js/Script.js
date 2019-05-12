@@ -84,9 +84,10 @@ $(document).ready(function(){
     });
 
     axios.get('/menu')
-        .then(response => {
-            console.log(response.data);
-    });
+        .then(response => response.json())
+        .then(result => {
+            console.log(`${result}`);
+        });
 
     ReactDOM.render(<App />, document.getElementById('articulo'));
 });
