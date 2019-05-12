@@ -15,7 +15,7 @@ class MainController extends Controller
         return view('modals.login')->render();
     }
 
-    public function insertItemMenu(Request $request){
+    public function insertItemMenu(Request $request, $parent = null){
         $menu = new Menu;
 
         $menu->name = $request->name;
