@@ -83,7 +83,7 @@ $(document).ready(function(){
         });
     });
 
-    axios.get('192.168.0.9/menu')
+    axios.get('menu')
         .then(response => {
             console.log(response);
     });
