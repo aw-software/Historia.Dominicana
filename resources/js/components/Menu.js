@@ -8,7 +8,7 @@ class Menu extends Component{
         menu: []
     }
 
-    componenDidmount () {
+    componentDidmount () {
         axios.get('/menu')
             .then(response => {
                 this.setState({menu: response.data});

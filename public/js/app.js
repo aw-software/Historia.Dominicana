@@ -61963,8 +61963,8 @@ function (_Component) {
   }
 
   _createClass(Menu, [{
-    key: "componenDidmount",
-    value: function componenDidmount() {
+    key: "componentDidmount",
+    value: function componentDidmount() {
       var _this2 = this;
 
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/menu').then(function (response) {
@@ -61979,7 +61979,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "menu"
       }, this.state.menu.map(function (items) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Il, null, items.name);
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Il, null, items.name);
       }));
     }
   }]);
