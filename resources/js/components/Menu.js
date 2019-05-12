@@ -21,11 +21,11 @@ class Menu extends Component{
                 <ul className="menu">
                     {
                         this.state.menu.map(items => {
-                            <li>{items.name}</li>
+                            return <li>{items.name}</li>
                         })
                     }
                 </ul>
-        )
+        );
     }
 }
 
