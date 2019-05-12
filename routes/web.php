@@ -15,3 +15,4 @@ Route::get('/',['as'=>'index', 'uses'=>'MainController@index']);
 
 Route::get('/',["as" => "index", "uses" =>"MainController@index"]);
 Route::get('login',["as" => "login", "uses" =>"MainController@login"]);
+Route::post('menu/save/{name}/{parent}/{order}',["as" => "saveMenu", "uses" => "MainController@insertItemMenu"]);
