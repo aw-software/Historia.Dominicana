@@ -9,7 +9,7 @@
  import App from './components/Index';
  import {SceneFade} from './ScrollMagic';
  import axios from 'axios';
- import menu from './components/Menu';
+ import Menu from './components/Menu';
 
 $(document).ready(function(){
     console.log("El documento 'Script' de Historia Dominicana está listo.");
@@ -84,7 +84,7 @@ $(document).ready(function(){
         });
     });
 
-    menu();
+    ReactDOM.render(<Menu />, document.getElementById('menu'));
 
     ReactDOM.render(<App />, document.getElementById('articulo'));
 });

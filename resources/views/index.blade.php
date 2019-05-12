@@ -44,15 +44,7 @@ and open the template in the editor......
             </div>
             <header>
                 <div id="mostrarNav"></div>
-                <nav id="menu">
-                    <ul class="menu">
-                        <li class="active"><a href="#">Inicio</a></li>
-                        <li><a href="#">Independencia Efímera</a></li>
-                        <li><a href="#">Invasión y ocupación haitiana</a></li>
-                        <li><a href="#">Independencia Dominicana</a></li>
-                        <li><a href="#">Haití intenta dominar R. Dominicana</a></li>
-                    </ul>
-                </nav>
+                <nav id="menu"></nav>
             </header>
 <!-- Full Height Modal Right -->
 <div class="modal fade bottom" id="fullHeightModalBottom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
