@@ -61375,7 +61375,7 @@ $(document).ready(function () {
     });
   });
   axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('/menu').then(function (response) {
-    console.log(response);
+    console.log(response.data);
   });
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Index__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('articulo'));
 });

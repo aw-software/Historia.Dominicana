@@ -85,7 +85,7 @@ $(document).ready(function(){
 
     axios.get('/menu')
         .then(response => {
-            console.log(response);
+            console.log(response.data);
     });
 
     ReactDOM.render(<App />, document.getElementById('articulo'));
