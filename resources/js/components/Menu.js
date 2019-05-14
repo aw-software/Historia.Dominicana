@@ -17,7 +17,6 @@ class Menu extends Component{
     }
 
     render() {
-        let items = null;
         if(this.state.menu){
             items = (
                 this.state.menu.map((items, key) => {
