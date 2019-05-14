@@ -61975,6 +61975,8 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var items = null;
+
       if (this.state.menu) {
         items = this.state.menu.map(function (items, key) {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
