@@ -61983,7 +61983,7 @@ function (_Component) {
       if (this.state.menu) {
         items = this.state.menu.map(function (items, key) {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-            className: key == 0 ? active : ""
+            className: key == 0 ? "active" : ""
           }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
         });
       } else {
