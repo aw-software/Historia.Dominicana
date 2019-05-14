@@ -61956,7 +61956,7 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Menu)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_this), "state", {
-      menu: []
+      menu: false
     });
 
     return _this;
@@ -61978,11 +61978,17 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var items = null;
+
+      if (this.state.menu) {
+        items = this.state.menu.map(function (items) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
+        });
+      }
+
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "menu"
-      }, this.state.menu.map(function (items) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
-      }));
+      }, items);
     }
   }]);
 

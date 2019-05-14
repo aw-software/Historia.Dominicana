@@ -5,7 +5,7 @@ import axios from 'axios';
 class Menu extends Component{
 
     state = {
-        menu: []
+        menu: false
     }
 
     componentDidMount () {
@@ -17,12 +17,19 @@ class Menu extends Component{
     }
 
     render() {
+        let items = null;
+        if(this.state.menu){
+            items = (
+                this.state.menu.map(items => {
+                    return <li><a>{items.name}</a></li>
+                })
+            );
+        }
+        
         return (
                 <ul className="menu">
                     {
-                        this.state.menu.map(items => {
-                            return <li><a>{items.name}</a></li>
-                        })
+                        items
                     }
                 </ul>
         );
