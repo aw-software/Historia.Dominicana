@@ -25,7 +25,7 @@ class Menu extends Component{
                 })
             );
         }else{
-            return <li><a>No tiene elementos en el menu</a></li>;
+            return <li><a>Not items</a></li>;
         }
         
         return (
