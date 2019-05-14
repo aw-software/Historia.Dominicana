@@ -61964,11 +61964,16 @@ function (_Component) {
 
   _createClass(Menu, [{
     key: "componentDidMount",
-    value: function componentDidMount() {// axios.get('/menu')
-      //     .then(response => {
-      //         console.log(`Esta entrando en la funcion que va al servidor, este el arrar: ${response.data}`)
-      //         this.setState({menu: response.data});
-      // });
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/menu').then(function (response) {
+        console.log("Esta entrando en la funcion que va al servidor, este el arrar: ".concat(response.data));
+
+        _this2.setState({
+          menu: response.data
+        });
+      });
     }
   }, {
     key: "render",

@@ -9,11 +9,11 @@ class Menu extends Component{
     }
 
     componentDidMount () {
-        // axios.get('/menu')
-        //     .then(response => {
-        //         console.log(`Esta entrando en la funcion que va al servidor, este el arrar: ${response.data}`)
-        //         this.setState({menu: response.data});
-        // });
+        axios.get('/menu')
+            .then(response => {
+                console.log(`Esta entrando en la funcion que va al servidor, este el arrar: ${response.data}`)
+                this.setState({menu: response.data});
+        });
     }
 
     render() {
@@ -30,9 +30,7 @@ class Menu extends Component{
         
         return (
                 <ul className="menu">
-                    {
-                        items
-                    }
+                    {items}
                 </ul>
         );
     }
