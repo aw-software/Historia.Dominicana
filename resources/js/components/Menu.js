@@ -21,8 +21,7 @@ class Menu extends Component{
         if(this.state.menu){
             items = (
                 this.state.menu.map((items, key) => {
-                    console.log(key);
-                    return <li><a>{items.name}</a></li>
+                    return <li className={key == 0 ? active : ""}><a>{items.name}</a></li>
                 })
             );
         }else{

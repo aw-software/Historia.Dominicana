@@ -61982,8 +61982,9 @@ function (_Component) {
 
       if (this.state.menu) {
         items = this.state.menu.map(function (items, key) {
-          console.log(key);
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+            className: key == 0 ? active : ""
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
         });
       } else {
         items = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Not items"));
