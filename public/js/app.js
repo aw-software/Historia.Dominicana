@@ -61566,10 +61566,9 @@ $(document).ready(function () {
   });
   $(document).on('click', 'button#iniciarSesion', function () {
     $.get('login', function (data) {
-      $('div#modalLog').html(data);
-      setTimeout(function () {
-        $('li a#iniciarSesion').click();
-      }, 1000);
+      $('div#modalLog').html(data); // setTimeout(()=>{
+      //     $('li a#iniciarSesion').click();
+      // }, 1000);
     });
   });
   $(document).on('click', 'input[formulario="cd-signup"]', function () {

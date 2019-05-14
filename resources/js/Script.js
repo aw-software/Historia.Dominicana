@@ -38,9 +38,9 @@ $(document).ready(function(){
     $(document).on('click','button#iniciarSesion',function(){
         $.get('login', ((data)=>{
             $('div#modalLog').html(data);
-            setTimeout(()=>{
-                $('li a#iniciarSesion').click();
-            }, 1000);
+            // setTimeout(()=>{
+            //     $('li a#iniciarSesion').click();
+            // }, 1000);
         }));
     });
 
