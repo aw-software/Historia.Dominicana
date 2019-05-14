@@ -20,7 +20,8 @@ class Menu extends Component{
         let items = null;
         if(this.state.menu){
             items = (
-                this.state.menu.map(items => {
+                this.state.menu.map((items, key) => {
+                    console.log(key);
                     return <li><a>{items.name}</a></li>
                 })
             );

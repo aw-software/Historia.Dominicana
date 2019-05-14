@@ -61981,7 +61981,8 @@ function (_Component) {
       var items = null;
 
       if (this.state.menu) {
-        items = this.state.menu.map(function (items) {
+        items = this.state.menu.map(function (items, key) {
+          console.log(key);
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, items.name));
         });
       } else {
