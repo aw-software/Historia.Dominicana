@@ -8,7 +8,7 @@ use App\Menu;
 class MainController extends Controller
 {
     public function index(Request $request){
-        $request()->session()->put('Historia', 'Hola');
+        $request->session()->put('Historia', 'Hola');
         return view('index');
     }
 
