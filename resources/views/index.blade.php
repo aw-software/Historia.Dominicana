@@ -8,7 +8,7 @@ and open the template in the editor......
 <html>
     <head>
         <meta charset="UTF-8">
-    <title>{{ session('Historia.Dominicana') }}</title>
+    <title>{{ session('Historia') }}</title>
         <!--Css-->
         <link rel="stylesheet" type="text/css" href="css/Style.css">
         <link rel="stylesheet" type="text/css" href="css/modalLogin.css">
